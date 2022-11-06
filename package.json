@@ -1,0 +1,46 @@
+{
+  "name": "xfe-cli",
+  "version": "1.1.2",
+  "description": "A simple to use project cli tool",
+  "main": "bin/index.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "bin": {
+    "xfe-cli": "bin/index.js"
+  },
+  "scripts": {
+    "dev": "node bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/xiejiahao/cli.git"
+  },
+  "homepage": "https://gitee.com/xiejiahao/cli",
+  "keywords": [
+    "command",
+    "inquirer",
+    "cli",
+    "脚手架"
+  ],
+  "author": {
+    "name": "戡玉",
+    "url": "https://gitee.com/xiejiahao"
+  },
+  "bugs": {
+    "url": "https://gitee.com/xiejiahao/cli/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.1.2",
+    "clear": "^0.1.0",
+    "commander": "^9.4.1",
+    "figlet": "^1.5.2",
+    "inquirer": "^9.1.4",
+    "log-symbols": "^5.1.0",
+    "nodejs-file-downloader": "^4.10.2",
+    "ora": "^6.1.2"
+  },
+  "type": "module"
+}
